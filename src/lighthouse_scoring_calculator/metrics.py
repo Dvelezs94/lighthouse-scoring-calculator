@@ -9,6 +9,7 @@ metrics = {
     "FCI": {"auditId": 'first-cpu-idle', "name": 'First CPU Idle'},
 }
 
+# curves obtained from https://googlechrome.github.io/lighthouse/scorecalc/calc.js
 curves = {
     "v10": {
         "mobile": {
