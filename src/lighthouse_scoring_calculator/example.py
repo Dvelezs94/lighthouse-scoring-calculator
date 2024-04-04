@@ -11,7 +11,7 @@ testData = {
     "CLS": 0.25
 }
 
-calculator = LighthouseScoringCalculator(testData, "mobile", "v9")
+calculator = LighthouseScoringCalculator(testData, "mobile", "v10")
 
 print("Score:", calculator.calc_score())
 print("Rating of FCP:", calculator.get_rating("FCP"))
